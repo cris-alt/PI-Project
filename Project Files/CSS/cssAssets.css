@@ -1,0 +1,207 @@
+.myButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 16px;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    cursor:pointer;
+    outline: none;
+}
+
+.myButton:focus {outline:0;}
+
+
+
+.myButtonPrimary{
+    background-color: #950101;
+    color: aliceblue;
+}
+
+.myButtonPrimary:hover{
+    background-color: #7c0101;
+}
+
+.myButtonSecondary{
+    background-color: whitesmoke;
+    color: #950101;
+}
+
+.myButtonSecondary:hover{
+    background-color: #dcdcdc;
+}
+
+.myButtonTertiary{
+    background-color: rgba(245, 245, 245, 0.3);
+    color: rgba(245, 245, 245, 0.8);
+}
+
+.myButtonTertiary:hover{
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.myButtonSuccess{
+    background-color: #31ca31;
+    color: white;
+}
+
+.myButtonSuccess:hover{
+    background-color: #2eba2e;
+}
+
+.myButtonWarning{
+    background-color: #ff9914;
+    color: white;
+}
+
+.myButtonWarning:hover{
+    background-color: #ff9000;
+}
+
+.myButtonDanger{
+    background-color: #ff2727;
+    color: white;
+}
+
+.myButtonDanger:hover{
+    background-color: #ff1414;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.myInput{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Candara;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    font-size: 16px;
+    padding: 8px;
+    width: 250px;
+    height: 22px;
+    outline: none;
+}
+
+.myInput:focus {
+    background-color: aliceblue;
+    border-width: 2px;
+    border-color: #950101;
+    border-style: solid;
+}
+
+.myLogin{
+    align-content: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #950101;
+    padding: 20px;
+    width: 450px;
+   /* height: 350px;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mySignIn{
+    align-content: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #950101;
+    padding: 20px;
+    width: 450px;
+    /*height: 600px;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginOption {
+    color: #950101;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myPerson{
+    align-content: center;
+    border-radius: 4px;
+    border-color: grey;
+    background-color: rgba(211, 211, 211, 0.5);
+    color: #313538;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    display: inline-block;
+}
+
+.myTrailer{
+    cursor:pointer;
+    background-color: #ff2727;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 0;
+    font-size: 16px;
+    padding: 4px 10px 4px 10px;
+    width: fit-content;
+}
+
+.myTrailer:hover{
+    background-color: #e52323;
+}
+
+/* unvisited link */
+a:link {
+    color: #950101;
+}
+
+/* visited link */
+a:visited {
+    color: #950101;
+}
+
+/* mouse over link */
+a:hover {
+    color: whitesmoke;
+}
+
+/* selected link */
+a:active {
+    color: whitesmoke;
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #950101;
+    /*margin-top: -20px;*/
+}
+
+
+

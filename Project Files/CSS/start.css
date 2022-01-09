@@ -1,0 +1,81 @@
+.beginBody {
+    background-image: url("../IMAGES/posters_grid.png");
+   // background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+.sectionTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+    margin: 15px 15px 15px 65px;
+
+}
+
+.section {
+    margin: 0;
+    padding: 0 150px 0 150px;
+    display: block;
+    justify-content: center;
+}
+
+.row {
+    margin: 0 15px 0 50px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #191919;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.statistic{
+    background-color: #191919;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px;
+    width: 350px;
+    height: 200px;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+
+}
+.minimalCard{
+    background-color: darkred;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px;
+    /*width: 350px;*/
+    height: 200px;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+
